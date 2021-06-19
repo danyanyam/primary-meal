@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="body">
       <div className="logo">Primarymeal</div>
       <div className="bubble-top"></div>
       <div className="bubble-bottom"></div>
@@ -21,12 +21,12 @@ function App() {
             <button className="search">Submit</button>
           </form>
         </div>
-        <div class="nav-buttons">
-          <button class="nav-button">Show Combination</button>
-          <button class="nav-button">Nutrition and portion size</button>
+        <div className="nav-buttons">
+          <button className="nav-button">Show Combination</button>
+          <button className="nav-button">Nutrition and portion size</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
