@@ -1,20 +1,41 @@
 # primary-meal
+
 primary meal source code
 
-<!-- Смотрим на изменения в коде -->
-<!-- git status . -->
+### git команды
 
-<!-- Добавляем все файлы -->
-<!-- git add . -->
+Смотрим на изменения в коде
 
-<!-- Коммитим файлы -->
-<!-- git commit -m "initial commit" -->
+```bash
+git status .
+```
 
-<!-- Пушим файлы в репозиторий -->
-<!-- git push --set-upstream origin dev -->
+Добавляем все файлы
 
-<!-- Меняем ветку -->
-<!-- git checkout main -->
+```bash
+git add .
+```
 
-<!-- Копируем изменения -->
-<!-- git pull -->
+Коммитим файлы
+
+```bash
+git commit -m "initial commit"
+```
+
+Пушим файлы в репозиторий
+
+```bash
+git push --set-upstream origin dev
+```
+
+Меняем ветку
+
+```bash
+git checkout dev
+```
+
+Обновляем изменения
+
+```bash
+git pull
+```
